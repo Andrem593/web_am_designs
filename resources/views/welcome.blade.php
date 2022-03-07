@@ -80,7 +80,7 @@
     <div class="container">
 
       <div class="intro-img">
-        <img src="img/web_developer.svg" alt="" class="img-fluid">
+        <img src="img/coding.png"  alt="" class="img-fluid">
       </div>
 
       <div class="intro-info">
@@ -455,7 +455,7 @@
       <div class="container">
 
         <header class="section-header">
-          <h3>Testimonials</h3>
+          <h3>Testimonios</h3>
         </header>
 
         <div class="row justify-content-center">
@@ -465,46 +465,37 @@
 
               <div class="testimonial-item">
                 <img src="img/testimonial-1.jpg" class="testimonial-img" alt="">
-                <h3>Saul Goodman</h3>
-                <h4>Ceo &amp; Founder</h4>
+                <h3>Carlos Rodriguez</h3>
+                <h4>cliente</h4>
                 <p>
-                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                    Cuando iniciamos teníamos la convicción de que nuestra empresa se diera a conocer por medio de una página web profesional y redes sociales, con AM Designs lo hemos conseguido, gracias al soporte que nos han dado.
                 </p>
               </div>
 
               <div class="testimonial-item">
                 <img src="img/testimonial-2.jpg" class="testimonial-img" alt="">
-                <h3>Sara Wilsson</h3>
-                <h4>Designer</h4>
+                <h3>Mariuxi Chimbo</h3>
+                <h4>cliente</h4>
                 <p>
-                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                    La experiencia ha sido muy buena ya que han sido muy atentos con nosotros, todas las preguntas que hemos hecho han sido respondidas y nos han aconsejado sobre lo que debemos hacer con nuestra página web.
                 </p>
               </div>
 
               <div class="testimonial-item">
                 <img src="img/testimonial-3.jpg" class="testimonial-img" alt="">
-                <h3>Jena Karlis</h3>
-                <h4>Store Owner</h4>
+                <h3>Diana Alvarez</h3>
+                <h4>Cliente</h4>
                 <p>
-                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                    Trabajamos con AM Designs por su atención cercana, su trato, su positivismo y su entusiasmo a la hora de hacer su trabajo. Nuestra empresa ha ingresado al mundo digital.
                 </p>
               </div>
 
               <div class="testimonial-item">
                 <img src="img/testimonial-4.jpg" class="testimonial-img" alt="">
-                <h3>Matt Brandon</h3>
-                <h4>Freelancer</h4>
+                <h3>Johanna Garcia</h3>
+                <h4>Emprendedora</h4>
                 <p>
-                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-                </p>
-              </div>
-
-              <div class="testimonial-item">
-                <img src="img/testimonial-5.jpg" class="testimonial-img" alt="">
-                <h3>John Larson</h3>
-                <h4>Entrepreneur</h4>
-                <p>
-                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                    Hace un tiempo nos hicieron nuestra sistema web y, desde entonces, le dan mantenimiento con una profesionalidad, rapidez en los cambios y dedicación. Los felicito.
                 </p>
               </div>
 
@@ -523,24 +514,23 @@
     <section id="team">
       <div class="container">
         <div class="section-header">
-          <h3>Team</h3>
-          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+          <h3>Equipo</h3>
+          <p>Tenemos un gran equipo que trabaja por tus proyectos.</p>
         </div>
 
-        <div class="row">
+        <div class="row d-flex justify-content-center">
 
           <div class="col-lg-3 col-md-6 wow fadeInUp">
             <div class="member">
               <img src="img/team-1.jpg" class="img-fluid" alt="">
               <div class="member-info">
                 <div class="member-info-content">
-                  <h4>Walter White</h4>
-                  <span>Chief Executive Officer</span>
+                  <h4>Andrés Mendoza</h4>
+                  <span>Software Developer</span>
                   <div class="social">
-                    <a href=""><i class="fa fa-twitter"></i></a>
-                    <a href=""><i class="fa fa-facebook"></i></a>
-                    <a href=""><i class="fa fa-google-plus"></i></a>
-                    <a href=""><i class="fa fa-linkedin"></i></a>
+                    <a href="https://www.linkedin.com/in/andres-mendoza-sofware-developer/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.facebook.com/andres.software.developer/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/andrem593/"><i class="fa-brands fa-instagram"></i></a>
                   </div>
                 </div>
               </div>
@@ -552,13 +542,12 @@
               <img src="img/team-2.jpg" class="img-fluid" alt="">
               <div class="member-info">
                 <div class="member-info-content">
-                  <h4>Sarah Jhonson</h4>
-                  <span>Product Manager</span>
+                  <h4>Christian Ramos</h4>
+                  <span>Software Developer</span>
                   <div class="social">
-                    <a href=""><i class="fa fa-twitter"></i></a>
-                    <a href=""><i class="fa fa-facebook"></i></a>
-                    <a href=""><i class="fa fa-google-plus"></i></a>
-                    <a href=""><i class="fa fa-linkedin"></i></a>
+                    <a href="https://www.linkedin.com/in/christian-ramos-59726b67/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.facebook.com/crismas06"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/andrem593/"><i class="fa-brands fa-instagram"></i></a>
                   </div>
                 </div>
               </div>
@@ -570,31 +559,12 @@
               <img src="img/team-3.jpg" class="img-fluid" alt="">
               <div class="member-info">
                 <div class="member-info-content">
-                  <h4>William Anderson</h4>
-                  <span>CTO</span>
+                  <h4>Genesis Vera</h4>
+                  <span>Contadora</span>
                   <div class="social">
-                    <a href=""><i class="fa fa-twitter"></i></a>
-                    <a href=""><i class="fa fa-facebook"></i></a>
-                    <a href=""><i class="fa fa-google-plus"></i></a>
-                    <a href=""><i class="fa fa-linkedin"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-            <div class="member">
-              <img src="img/team-4.jpg" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>Amanda Jepson</h4>
-                  <span>Accountant</span>
-                  <div class="social">
-                    <a href=""><i class="fa fa-twitter"></i></a>
-                    <a href=""><i class="fa fa-facebook"></i></a>
-                    <a href=""><i class="fa fa-google-plus"></i></a>
-                    <a href=""><i class="fa fa-linkedin"></i></a>
+                    <a href="https://www.linkedin.com/in/genesis-vera-61602b122/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.facebook.com/genesis.vera.169"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/andrem593/"><i class="fa-brands fa-instagram"></i></a>
                   </div>
                 </div>
               </div>
@@ -614,8 +584,7 @@
       <div class="container">
 
         <div class="section-header">
-          <h3>Our CLients</h3>
-          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque dere santome nida.</p>
+          <h3>Nuestros Clientes</h3>
         </div>
 
         <div class="row no-gutters clients-wrap clearfix wow fadeInUp">
@@ -681,14 +650,14 @@
       <div class="container-fluid">
 
         <div class="section-header">
-          <h3>Contact Us</h3>
+          <h3>Contáctanos</h3>
         </div>
 
         <div class="row wow fadeInUp">
 
           <div class="col-lg-6">
             <div class="map mb-4 mb-lg-0">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 312px;" allowfullscreen></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127586.12305516894!2d-79.96683676208328!3d-2.1281795613302767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d13b584adec6d%3A0xe4cf0e497f3b66fe!2sAM%20DESINGS!5e0!3m2!1ses!2sec!4v1646679887869!5m2!1ses!2sec"  style="border:0; width: 100%; height: 312px;" allowfullscreen loading="lazy"></iframe>
             </div>
           </div>
 
@@ -696,41 +665,41 @@
             <div class="row">
               <div class="col-md-5 info">
                 <i class="ion-ios-location-outline"></i>
-                <p>A108 Adam Street, NY 535022</p>
+                <p>Urbanización Toledo,Guayaquil</p>
               </div>
               <div class="col-md-4 info">
                 <i class="ion-ios-email-outline"></i>
-                <p>info@example.com</p>
+                <p>andres@amdesings.com</p>
               </div>
               <div class="col-md-3 info">
                 <i class="ion-ios-telephone-outline"></i>
-                <p>+1 5589 55488 55</p>
+                <p>+593 967402331</p>
               </div>
             </div>
 
             <div class="form">
-              <div id="sendmessage">Your message has been sent. Thank you!</div>
+              <div id="sendmessage">Tu mensaje ha sido enviado. Gracias!</div>
               <div id="errormessage"></div>
               <form action="" method="post" role="form" class="contactForm">
                 <div class="form-row">
                   <div class="form-group col-lg-6">
-                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Tu nombre" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
                     <div class="validation"></div>
                   </div>
                   <div class="form-group col-lg-6">
-                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Tu Email" data-rule="email" data-msg="Please enter a valid email" />
                     <div class="validation"></div>
                   </div>
                 </div>
                 <div class="form-group">
-                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
                   <div class="validation"></div>
                 </div>
                 <div class="form-group">
-                  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Escribenos tus comentarios aquí" placeholder="Escribenos tus comentarios aquí"></textarea>
                   <div class="validation"></div>
                 </div>
-                <div class="text-center"><button type="submit" title="Send Message">Send Message</button></div>
+                <div class="text-center"><button type="submit">Enviar mensaje</button></div>
               </form>
             </div>
           </div>
@@ -751,46 +720,47 @@
         <div class="row">
 
           <div class="col-lg-4 col-md-6 footer-info">
-            <h3>NewBiz</h3>
-            <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p>
+              <div class="p-2">
+                  <img src="img/logo_alterno.png" alt="logo alterno am desings" class="img-fluid text-center" width="180rem">
+              </div>
+            <p>Somos una empresa de diseño y desarrollo web comprometida a cumplir siempre con las expectativas de los clientes.</p>
           </div>
 
           <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Useful Links</h4>
+            <h4>Paginas</h4>
             <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About us</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Terms of service</a></li>
-              <li><a href="#">Privacy policy</a></li>
+              <li><a href="#intro">Inicio</a></li>
+              <li><a href="#about">Sobre nosotros</a></li>
+              <li><a href="#services">Servicios</a></li>
+              <li><a href="#portfolio">Portafolio</a></li>
+              <li><a href="#team">Equipo</a></li>
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-contact">
-            <h4>Contact Us</h4>
+            <h4>Contáctanos</h4>
             <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
+                Urbanización Toledo <br>
+                Guayaquil, Guayas<br>
+              Ecuador <br>
+              <strong>Teléfono:</strong> +593 967402331<br>
+              <strong>Email:</strong>
+              andres@amdesings.com<br>
             </p>
 
             <div class="social-links">
-              <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-              <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-              <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-              <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
-              <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+              <a href="https://www.linkedin.com/in/andres-mendoza-sofware-developer/" class="twitter"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="https://www.facebook.com/andres.software.developer" class="facebook"><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://www.instagram.com/andrem593/" class="google-plus"><i class="fa-brands fa-instagram"></i></a>
             </div>
 
           </div>
 
           <div class="col-lg-3 col-md-6 footer-newsletter">
-            <h4>Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna veniam enim veniam illum dolore legam minim quorum culpa amet magna export quem marada parida nodela caramase seza.</p>
+            <h4>Nuestras Noticias</h4>
+            <p>Regístrate en nuestras noticias para mantenerte al día sobre ofertas, descuentos y promociones en nuestros servicios.</p>
             <form action="" method="post">
-              <input type="email" name="email"><input type="submit"  value="Subscribe">
+              <input type="email" name="email"><input type="submit"  value="Suscribirte">
             </form>
           </div>
 
@@ -800,16 +770,7 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong>NewBiz</strong>. All Rights Reserved
-      </div>
-      <div class="credits">
-        <!--
-          All the links in the footer should remain intact.
-          You can delete the links only if you purchased the pro version.
-          Licensing information: https://bootstrapmade.com/license/
-          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=NewBiz
-        -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        &copy; Copyright <strong>AM DESIGNS</strong>. 2022
       </div>
     </div>
   </footer><!-- #footer -->

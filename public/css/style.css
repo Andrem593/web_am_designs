@@ -173,7 +173,7 @@ h6 {
   position: relative;
   background: url("../img/intro-bg2.png") center bottom no-repeat;
   background-size: cover;
-  padding: 200px 0 120px 0;
+  padding: 100px 0 70px 0;
 }
 
 #intro .intro-img {
@@ -184,6 +184,7 @@ h6 {
 #intro .intro-info {
   width: 50%;
   float: left;
+  padding-top: 6rem;
 }
 
 #intro .intro-info h2 {
@@ -643,7 +644,7 @@ h6 {
   background: #ff4b1f;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #ff9068, #ff4b1f);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #ff9068, #ff4b1f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
- 
+
 }
 
 #why-us .section-header h3,
@@ -1169,7 +1170,7 @@ h6 {
 }
 
 #contact .form button[type="submit"] {
-  background: #007bff;
+  background: var(--primary-color);
   border: 0;
   border-radius: 20px;
   padding: 8px 30px;
@@ -1178,7 +1179,7 @@ h6 {
 }
 
 #contact .form button[type="submit"]:hover {
-  background: #0067d5;
+  background: var(--secondary-color);
   cursor: pointer;
 }
 
@@ -1187,14 +1188,14 @@ h6 {
 --------------------------------------------------------------*/
 
 #footer {
-  background: #00428a;
+  background: var(--primary-color);
   padding: 0 0 30px 0;
   color: #eee;
   font-size: 14px;
 }
 
 #footer .footer-top {
-  background: #004a99;
+  background: var(--primary-color);
   padding: 60px 0 30px 0;
 }
 
@@ -1225,7 +1226,7 @@ h6 {
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #007bff;
+  background: var(--secondary-color);
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1238,7 +1239,7 @@ h6 {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #0067d5;
+  background: #556877;
   color: #fff;
 }
 
@@ -1296,7 +1297,7 @@ h6 {
 }
 
 #footer .footer-top .footer-newsletter input[type="submit"] {
-  background: #007bff;
+  background: var(--secondary-color);
   border: 0;
   width: 35%;
   padding: 6px 0;
@@ -1307,7 +1308,7 @@ h6 {
 }
 
 #footer .footer-top .footer-newsletter input[type="submit"]:hover {
-  background: #0062cc;
+  background: #556877;
 }
 
 #footer .copyright {
@@ -1365,6 +1366,7 @@ h6 {
     float: none;
     margin: auto;
     text-align: center;
+    padding-top: 0;
   }
 
   #why-us .card {
@@ -1381,6 +1383,7 @@ h6 {
 @media (max-width: 767px) {
   #intro .intro-info {
     width: 100%;
+    padding-top: 0;
   }
 
   #intro .intro-info h2 {
