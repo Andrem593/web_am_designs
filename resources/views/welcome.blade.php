@@ -484,7 +484,7 @@
               <div class="testimonial-item">
                 <img src="img/testimonial-3.jpg" class="testimonial-img" alt="">
                 <h3>Diana Alvarez</h3>
-                <h4>Cliente</h4>
+                <h4>Emprendedora</h4>
                 <p>
                     Trabajamos con AM Designs por su atención cercana, su trato, su positivismo y su entusiasmo a la hora de hacer su trabajo. Nuestra empresa ha ingresado al mundo digital.
                 </p>
@@ -493,7 +493,7 @@
               <div class="testimonial-item">
                 <img src="img/testimonial-4.jpg" class="testimonial-img" alt="">
                 <h3>Johanna Garcia</h3>
-                <h4>Emprendedora</h4>
+                <h4>Cliente</h4>
                 <p>
                     Hace un tiempo nos hicieron nuestra sistema web y, desde entonces, le dan mantenimiento con una profesionalidad, rapidez en los cambios y dedicación. Los felicito.
                 </p>
