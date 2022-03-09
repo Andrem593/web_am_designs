@@ -671,7 +671,7 @@
 
           <div class="col-lg-6">
             <div class="row">
-              <div class="col-md-5 info">
+              <div class="col-md-3 info">
                 <i class="ion-ios-location-outline"></i>
                 <p>Guayaquil</p>
               </div>
@@ -679,7 +679,7 @@
                 <i class="ion-ios-email-outline"></i>
                 <p>andres@amdesings.com</p>
               </div>
-              <div class="col-md-3 info">
+              <div class="col-md-5 info">
                 <i class="ion-ios-telephone-outline"></i>
                 <p>+593 967402331</p>
               </div>
