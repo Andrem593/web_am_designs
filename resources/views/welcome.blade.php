@@ -2,10 +2,10 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
   <meta charset="utf-8">
-  <title>AM DESINGS | Desarrollo web a tu medida</title>
+  <title>AM DESIGNS | Desarrollo web a tu medida</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
-  <meta content="" name="description">
+  <meta content="AM DESIGNS es una pequeña empresa que se dedica a la creación de sitios web, sistemas personalizados, e-comerce, logos y ofrece cualquier tipo de soluciones tecnologicas" name="description">
 
   <!-- Favicons -->
   <link href="img/favicon.png" rel="icon">
@@ -25,7 +25,15 @@
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+  {{-- Analitycs --}}
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-SMJJZ5MTDM"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
+    gtag('config', 'G-SMJJZ5MTDM');
+  </script>
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
 </head>
@@ -44,7 +52,7 @@
 
       <nav class="main-nav float-right d-none d-lg-block">
         <ul>
-          <li class="active"><a href="#intro">inicio</a></li>
+          <li class="active"><a href="#intro">Inicio</a></li>
           <li><a href="#about">Sobre nosotros</a></li>
           <li><a href="#services">Servicios</a></li>
           <li><a href="#portfolio">Portafolio</a></li>
@@ -104,14 +112,14 @@
 
         <header class="section-header">
           <h3>Sobre Nosotros</h3>
-          <p>Somos una pequeña empresa dedicada a ofrecer soluciones tecnologicas.</p>
+          <p>Somos una pequeña empresa dedicada a ofrecer soluciones tecnológicas.</p>
         </header>
 
         <div class="row about-container">
 
           <div class="col-lg-6 content order-lg-1 order-2">
             <p>
-              Nuestro equipo de desarrolladores está comprometido con el desarrollo de sistemas y tecnologias que sirven para mejorar los procesos internos de tu negocio, tenemos
+              Nuestro equipo de desarrolladores está comprometido con el desarrollo de sistemas y Tecnologías  que sirven para mejorar los procesos internos de tu negocio, tenemos
               amplia experiencia en el desarrollo de los siguientes tipo de sistemas:
             </p>
 
@@ -130,7 +138,7 @@
             <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
               <div class="icon"><i class="fa fa-bar-chart"></i></div>
               <h4 class="title"><a href="#">Aplicaciones Web</a></h4>
-              <p class="description">Nos enfomas en desarrollar aplicaciones web's que cumplan con todos los requerimientos del clientes para automizar procesos dentro de su negocio.</p>
+              <p class="description">Nos enfocamos en desarrollar aplicaciones web's que cumplan con todos los requerimientos del clientes para automizar procesos dentro de su negocio.</p>
             </div>
 
           </div>
@@ -150,7 +158,7 @@
               Puedes ponerte en contacto con nosotros por cualquiera de los siquientes medios de comunicación, y te realizaremos la cotización de forma inmediata.
             </p>
             <div class="row">
-                <div class="col" style="font-size: 40px"><a class="ec-list"data-number="593967402331"
+                <div class="col" style="font-size: 40px"><a href="#" class="ec-list"data-number="593967402331"
                     data-message="¡Hola! Quiero cotizar un proyecto"><i class="fab fa-whatsapp"></i></a></div>
                 <div class="col" style="font-size: 40px">
                     <a href="tel:0967402331"><i class="fa fa-phone-square-alt"></i></a>
@@ -207,8 +215,8 @@
           <div class="col-md-6 col-lg-5 wow bounceInUp" data-wow-duration="1.4s">
             <div class="box">
               <div class="icon"><i class="fas fa-mobile-alt" style="color: #e9bf06;"></i></div>
-              <h4 class="title"><a href="#">Aplicaciones Moviles</a></h4>
-              <p class="description">Ofrecemos el desarrollo de app´s hibridas, que sean compatibles con IOS y Android usando la tecnologia de React Native o Flutter.</p>
+              <h4 class="title"><a href="#">Aplicaciones Móviles</a></h4>
+              <p class="description">Ofrecemos el desarrollo de app´s hibridas, que sean compatibles con IOS y Android usando la tecnología de React Native o Flutter.</p>
             </div>
           </div>
 
