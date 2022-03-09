@@ -673,7 +673,7 @@
             <div class="row">
               <div class="col-md-5 info">
                 <i class="ion-ios-location-outline"></i>
-                <p>Urbanización Toledo,Guayaquil</p>
+                <p>Guayaquil</p>
               </div>
               <div class="col-md-4 info">
                 <i class="ion-ios-email-outline"></i>
