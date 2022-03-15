@@ -22,6 +22,7 @@
   <link href="lib/animate/animate.min.css" rel="stylesheet">
   <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
   <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
@@ -180,11 +181,8 @@
 
           <div class="col-lg-6 wow fadeInUp pt-4 pt-lg-0 order-2 order-lg-1">
             <h4>Tecnologías con la que trabajamos para brindarte un mejor servicio.</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus perspiciatis dolorem assumenda accusantium iure non quisquam cum dolores minus.
-                Eligendi iusto perferendis corrupti autem, ad accusantium saepe obcaecati dolor recusandae!</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Dignissimos, voluptate! Deleniti repellat officiis saepe vero dignissimos sed in nisi,
-                porro alias laboriosam assumenda ratione eius minima numquam autem, maxime architecto!</p>
+            <p>Nuestro equipo de Desarrolladores maneja una amplia gama de tecnologías de vanguardia. Entre las principales tecnologías que usamos están: PHP, Python, JavaScript, CSS3, HTML5, etc.</p>
+            <p>Siempre estaremos prestos a recomendar la mejor solución tecnológica para las necesidades de su negocio.</p>
           </div>
 
         </div>
@@ -348,7 +346,7 @@
                 <p>App</p>
                 <div>
                   <a href="img/portfolio/app1.jpg" data-lightbox="portfolio" data-title="App 1" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
-                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                  {{-- <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a> --}}
                 </div>
               </div>
             </div>
@@ -376,7 +374,7 @@
                 <p>App</p>
                 <div>
                   <a href="img/portfolio/streak_am.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 2" title="Preview"><i class="ion ion-eye"></i></a>
-                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                  {{-- <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a> --}}
                 </div>
               </div>
             </div>
@@ -404,7 +402,7 @@
                 <p>Web</p>
                 <div>
                   <a href="img/portfolio/propieta.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 2" title="Preview"><i class="ion ion-eye"></i></a>
-                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                  <a href="https://propieta.ec/" target="_blank" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                 </div>
               </div>
             </div>
@@ -418,7 +416,7 @@
                 <p>App</p>
                 <div>
                   <a href="img/portfolio/ditribrands.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 3" title="Preview"><i class="ion ion-eye"></i></a>
-                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                  {{-- <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a> --}}
                 </div>
               </div>
             </div>
