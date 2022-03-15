@@ -4,9 +4,11 @@
   <meta charset="utf-8">
   <title>AM DESIGNS | Desarrollo web a tu medida</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <meta content="" name="keywords">
+  <meta name="keywords"  content="diseño web, diseadores web, desarrollo de una aplicación web,desarrollo de aplicacion movil, servicios tecnologicos, servicios tecnológicos, crear sitio web, web" >
   <meta content="AM DESIGNS es una pequeña empresa que se dedica a la creación de sitios web, sistemas personalizados, e-comerce, logos y ofrece cualquier tipo de soluciones tecnologicas" name="description">
-
+  <meta name="author" content="Andrés Mendoza" />
+  <meta name="copyright" content="AM DESIGNS EC" />
+  <meta name="robots" content="index,follow"/>
   <!-- Favicons -->
   <link href="img/favicon.png" rel="icon">
   <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -94,7 +96,8 @@
       <div class="intro-info">
         <h2>Brindamos<br><span>Soluciones</span><br>para su negocio!</h2>
         <div>
-          <a href="#about" class="btn-get-started scrollto">Contactar</a>
+          <a href="#" class="ec-list btn-get-started scrollto" data-number="593967402331"
+          data-message="¡Hola! Quiero cotizar un proyecto">Contactar</a>
           <a href="#services" class="btn-services scrollto">Nuestros servicios</a>
         </div>
       </div>
@@ -158,7 +161,7 @@
               Puedes ponerte en contacto con nosotros por cualquiera de los siquientes medios de comunicación, y te realizaremos la cotización de forma inmediata.
             </p>
             <div class="row">
-                <div class="col" style="font-size: 40px"><a href="#" class="ec-list"data-number="593967402331"
+                <div class="col" style="font-size: 40px"><a href="#" class="ec-list" data-number="593967402331"
                     data-message="¡Hola! Quiero cotizar un proyecto"><i class="fab fa-whatsapp"></i></a></div>
                 <div class="col" style="font-size: 40px">
                     <a href="tel:0967402331"><i class="fa fa-phone-square-alt"></i></a>
