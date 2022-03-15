@@ -348,7 +348,7 @@
                 <h4><a href="#">Punto de Venta</a></h4>
                 <p>App</p>
                 <div>
-                  <a href="img/portfolio/app1.jpg" data-lightbox="portfolio" data-title="App 1" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="img/portfolio/app1.jpg" data-lightbox="portfolio" data-title="Punto de Venta" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
                   {{-- <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a> --}}
                 </div>
               </div>
@@ -362,8 +362,8 @@
                 <h4><a href="#">Web GoodCat</a></h4>
                 <p>Web</p>
                 <div>
-                  <a href="img/portfolio/goodcat.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 3" title="Preview"><i class="ion ion-eye"></i></a>
-                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                  <a href="img/portfolio/goodcat.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web GoodCat" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="http://www.arenagoodcat.com/" target="_blank" class="link-details" title="Visitar página web"><i class="ion ion-android-open"></i></a>
                 </div>
               </div>
             </div>
@@ -376,7 +376,7 @@
                 <h4><a href="#">Sistemas de Gestión</a></h4>
                 <p>App</p>
                 <div>
-                  <a href="img/portfolio/streak_am.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 2" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="img/portfolio/streak_am.jpg" class="link-preview" data-lightbox="portfolio" data-title="Sistemas de Gestión" title="Preview"><i class="ion ion-eye"></i></a>
                   {{-- <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a> --}}
                 </div>
               </div>
@@ -390,8 +390,8 @@
                 <h4><a href="#">LATERRA</a></h4>
                 <p>e-commerce</p>
                 <div>
-                  <a href="img/portfolio/laterra.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 2" title="Preview"><i class="ion ion-eye"></i></a>
-                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                  <a href="img/portfolio/laterra.jpg" class="link-preview" data-lightbox="portfolio" data-title="LATERRA" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="https://laterrabiojoyas.com/" target="_blank" class="link-details" title="Visitar página web"><i class="ion ion-android-open"></i></a>
                 </div>
               </div>
             </div>
@@ -404,8 +404,8 @@
                 <h4><a href="#">Propieta</a></h4>
                 <p>Web</p>
                 <div>
-                  <a href="img/portfolio/propieta.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 2" title="Preview"><i class="ion ion-eye"></i></a>
-                  <a href="https://propieta.ec/" target="_blank" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                  <a href="img/portfolio/propieta.jpg" class="link-preview" data-lightbox="portfolio" data-title="Propieta" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="https://propieta.ec/" target="_blank" class="link-details" title="Visitar página web"><i class="ion ion-android-open"></i></a>
                 </div>
               </div>
             </div>
@@ -418,7 +418,7 @@
                 <h4><a href="#">Sistema de Administración</a></h4>
                 <p>App</p>
                 <div>
-                  <a href="img/portfolio/ditribrands.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 3" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="img/portfolio/ditribrands.jpg" class="link-preview" data-lightbox="portfolio" data-title="Sistema de Administración" title="Preview"><i class="ion ion-eye"></i></a>
                   {{-- <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a> --}}
                 </div>
               </div>
@@ -432,8 +432,8 @@
                 <h4><a href="#">Ibizza</a></h4>
                 <p>e-commerce</p>
                 <div>
-                  <a href="img/portfolio/web_ibizza.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 1" title="Preview"><i class="ion ion-eye"></i></a>
-                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                  <a href="img/portfolio/web_ibizza.jpg" class="link-preview" data-lightbox="portfolio" data-title="Ibizza" title="Preview"><i class="ion ion-eye"></i></a>
+                  {{-- <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a> --}}
                 </div>
               </div>
             </div>
@@ -446,8 +446,8 @@
                 <h4><a href="#">Propieta</a></h4>
                 <p>e-commerce</p>
                 <div>
-                  <a href="img/portfolio/web_PROPIETA.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 3" title="Preview"><i class="ion ion-eye"></i></a>
-                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                  <a href="img/portfolio/web_PROPIETA.jpg" class="link-preview" data-lightbox="portfolio" data-title="Propieta" title="Preview"><i class="ion ion-eye"></i></a>
+                  {{-- <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a> --}}
                 </div>
               </div>
             </div>
