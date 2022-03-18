@@ -687,9 +687,14 @@
             </div>
 
             <div class="form">
+              @if (Session::has('success'))
               <div id="sendmessage">Tu mensaje ha sido enviado. Gracias!</div>
+              @php
+                  Session::forget('success');
+              @endphp                  
+              @endif
               <div id="errormessage"></div>
-              <form action="" method="post" role="form" class="contactForm">
+              <form action="{{ route('mail.contact') }}" method="post" role="form" class="contactForm">
                 <div class="form-row">
                   <div class="form-group col-lg-6">
                     <input type="text" name="name" class="form-control" id="name" placeholder="Tu nombre" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
@@ -705,7 +710,7 @@
                   <div class="validation"></div>
                 </div>
                 <div class="form-group">
-                  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Escribenos tus comentarios aquí" placeholder="Escribenos tus comentarios aquí"></textarea>
+                  <textarea class="form-control" name="comments" rows="5" data-rule="required" data-msg="Escribenos tus comentarios aquí" placeholder="Escribenos tus comentarios aquí"></textarea>
                   <div class="validation"></div>
                 </div>
                 <div class="text-center"><button type="submit">Enviar mensaje</button></div>
