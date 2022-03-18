@@ -695,6 +695,7 @@
               @endif
               <div id="errormessage"></div>
               <form action="{{ route('mail.contact') }}" method="post" role="form" class="contactForm">
+                @csrf
                 <div class="form-row">
                   <div class="form-group col-lg-6">
                     <input type="text" name="name" class="form-control" id="name" placeholder="Tu nombre" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
