@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HomeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,3 +20,7 @@ Route::get('/', function () {
 });
 
 Route::post('/contact',[Controller::class,'contacto'])->name('mail.contact');
+
+Route::get('/home', [HomeController::class, 'index'])->name('home');
+
+Auth::routes();
