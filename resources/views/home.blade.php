@@ -4,5 +4,5 @@
  
  
 @section('content')
-    
+    @include('screens.casos')
 @stop
