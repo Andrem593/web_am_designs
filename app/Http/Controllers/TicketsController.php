@@ -34,7 +34,7 @@ class TicketsController extends Controller
         $ticket->estado = 1;
         $ticket->empresa_id = 1;              
         $ticket->save();
-        return view('home');
+        return redirect()->route('home');
     }
 
     public function show($id)
