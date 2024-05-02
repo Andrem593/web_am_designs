@@ -18,4 +18,19 @@ class Ticket extends Model
     {
         return $this->belongsTo(User::class, 'user_id', 'id');
     }
+
+    public function ticketActivities()
+    {
+        return $this->hasMany(TicketActivity::class);
+    }
+
+    public function empresa()
+    {
+        return $this->belongsTo(Empresa::class, 'empresa_id', 'id');
+    }
+
+    public function usuarioAsignado()
+    {
+        return $this->belongsTo(User::class, 'usuario_asignado', 'id');
+    }
 }

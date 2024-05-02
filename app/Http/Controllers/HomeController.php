@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\User;
 use App\Models\Ticket;
+use App\Models\Empresa;
 use Illuminate\Http\Request;
 use Spatie\Permission\Models\Role;
 use Spatie\Permission\Models\Permission;
@@ -27,7 +28,9 @@ class HomeController extends Controller
      */
     public function index()
     {
-        $tickets = Ticket::with('user')->get();        
+        $tickets = Ticket::with('user', 'usuarioAsignado')
+        ->orderBy('id', 'desc')
+        ->get();        
         return view('home', compact('tickets'));
     }
 
@@ -44,9 +47,10 @@ class HomeController extends Controller
 
     public function users()
     {
-        $users = User::all();
+        $users = User::with('roles', 'empresa')->get();        
         $roles = Role::all();
-        return view('admin.users', compact('users', 'roles'));
+        $empresas = Empresa::where('estado', 1)->get();
+        return view('admin.users', compact('users', 'roles', 'empresas'));
     }
 
     public function usersStore(Request $request)
@@ -70,7 +74,11 @@ class HomeController extends Controller
 
     public function usersUpdate(Request $request, User $user)
     {
-        $user->update($request->all());
+        $user->update([
+            'name' => $request->name,
+            'email' => $request->email,
+            'empresa_id' => $request->companies,
+        ]);
         return redirect()->route('users');
     }
 
@@ -147,5 +155,29 @@ class HomeController extends Controller
     {
         $permission->delete();
         return redirect()->route('permissions');
+    }
+
+    public function companies()
+    {
+        $companies = Empresa::all();
+        return view('admin.companies', compact('companies'));
+    }
+
+    public function companiesStore(Request $request)
+    {
+        $empresa = Empresa::create($request->all());
+        return redirect()->route('companies');
+    }
+
+    public function companiesUpdate(Request $request, Empresa $empresa)
+    {
+        $empresa->update($request->all());
+        return redirect()->route('companies');
+    }
+
+    public function companiesDestroy(Empresa $empresa)
+    {
+        $empresa->delete();
+        return redirect()->route('companies');
     }    
 }

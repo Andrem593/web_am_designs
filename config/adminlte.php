@@ -321,6 +321,12 @@ return [
             'can' => 'users'
         ],
         [
+            'text' => 'companies',
+            'url' => 'admin/companies',
+            'icon' => 'fas fa-fw fa-building',
+            'can' => 'companies'
+        ],
+        [
             'text' => 'roles',
             'url' => 'admin/role',
             'icon' => 'fas fa-fw fa-user-tag',

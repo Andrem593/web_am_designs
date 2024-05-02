@@ -45,6 +45,13 @@ Route::get('/admin/permissions/{permission}', [HomeController::class, 'permissio
 Route::put('/admin/permissions/{permission}', [HomeController::class, 'permissionsUpdate'])->name('permissions.update');
 Route::delete('/admin/permissions/{permission}', [HomeController::class, 'permissionsDestroy'])->name('permissions.destroy');
 
+Route::get('/admin/companies', [HomeController::class, 'companies'])->name('companies');
+Route::post('/admin/companies', [HomeController::class, 'companiesStore'])->name('companies.store');
+Route::put('/admin/companies/{empresa}', [HomeController::class, 'companiesUpdate'])->name('companies.update');
+Route::delete('/admin/companies/{empresa}', [HomeController::class, 'companiesDestroy'])->name('companies.destroy');
+
 Auth::routes();
 
 Route::apiResource('ticket', TicketsController::class);
+Route::get('/ticket/{ticket}/edit', [TicketsController::class, 'edit'])->name('ticket.edit');
+Route::post('ticket-activity', [TicketsController::class, 'activity'])->name('ticket.activity');
